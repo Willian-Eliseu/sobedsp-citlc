@@ -1,0 +1,21 @@
+#send-button {
+    background-color: #fd7e14 !important;
+    font-size: 0 !important;
+}
+
+#send-button::after {
+    content: 'Enviar';
+    font-size: 10px;
+    cursor: pointer;
+}
+
+#have-problems {
+    background-color: #fd7e14 !important;
+    font-size: 0px !important;
+}
+
+#have-problems::after {
+    content: 'Suporte';
+    font-size: 10px;
+    cursor: pointer;
+}

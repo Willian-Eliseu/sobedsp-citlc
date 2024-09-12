@@ -1,17 +1,17 @@
 <footer class="bg-principal">
     <div class="container">
         <div class="row">
-            <div class="col-auto mx-auto py-3">
-                <img src="../assets/img/logo_footer.png" alt="Logo do evento" class="img-footer" height="50px">
+            <div class="col-auto mx-auto pt-5 pb-2">
+                <img src="../assets/img/logo_footer.png" alt="Logo do evento" class="img-footer" height="65px">
             </div>
         </div>
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-12">
                 <h6 class="text-center text-light text-uppercase">
                     
                 </h6>
             </div>
-        </div>
+        </div> -->
         <div class="row">
             <div class="col-12">
                 <hr class="text-white">

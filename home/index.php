@@ -30,14 +30,21 @@ include_once "../assets/php/session.php";
         <section class="bg-light py-5">
             <div class="container">
                 <div class="row justify-content-center">
+                    <div class="col-12 mb-3">
+                        <h2 class="text-principal text-center fw-bold pt-5">Curso Interativo: Caracterização e Indicação Terapêutica de Lesões Colorretais</h2>
+                    </div>
                     <div class="col-lg-9">
-                        <h3 class="text-principal text-center fw-bold pt-5">Caracterização e Indicação Terapêutica de Lesões Colorretais</h3>
                         <p class="fs-5">
-                            O curso será realizado no dia 21 de setembro de 2024 de forma online.
+                            <b>Data:</b> 21 de setembro;
                             <br>
-                            As inscrições estão abertas.
+                            <b>Horário:</b> 08h00 (Horário de Brasília);
+                            <br>
+                            <b>Tipo:</b> Curso Online;
+                            <!-- O curso será realizado no dia <b>21 de setembro</b> de 2024 de forma online, a partir das <b>08h00</b> (horário de Brasília). -->
                             <br>
                             O curso será realizado de modo interativo, contando com a participação dos inscritos.
+                            <br>
+                            <b>AS INSCRIÇÕES ESTÃO ABERTAS.</b>
                         </p>
                     </div>
                 </div>
@@ -48,16 +55,16 @@ include_once "../assets/php/session.php";
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-9">
-                        <h3 class="text-principal text-center fw-bold pt-5">INSCRIÇÃO</h3>
+                        <!-- <h3 class="text-principal text-center fw-bold pt-5">INSCRIÇÃO</h3>
                         <p class="fs-5">
                             Curso Interativo: Caracterização e Indicação Terapêutica de Lesões Colorretais
                             <br>
                             Evento online com transmissão ao vivo no dia 21 de setembro de 2024 a partir das 08h00
                             (horário de Brasília)
-                        </p>
+                        </p> -->
 
-                        <p class="text-center pt-5">
-                            <a href="../subscribe" class="btn btn-principal fs-4 px-3 pulsing">INSCREVER-SE</a>
+                        <p class="text-center py-5">
+                            <a href="../subscribe" class="btn btn-principal fs-2 px-5 py-3 pulsing rounded-pill fw-bold">INSCREVER-SE</a>
                         </p>
                     </div>
                 </div>
@@ -68,10 +75,10 @@ include_once "../assets/php/session.php";
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-9">
-                        <h3 class="text-principal text-center fw-bold pt-5">PARTICIPANTES</h3>
-                        <p class="fs-5 py-3">
+                        <h2 class="text-principal text-center fw-bold py-5">PARTICIPANTES</h2>
+                        <!-- <p class="fs-5 py-3">
                             Confira abaixo os participantes do evento
-                        </p>
+                        </p> -->
                     </div>
                 </div>
                 <div class="row justify-content-center">
@@ -198,20 +205,20 @@ include_once "../assets/php/session.php";
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h3 class="text-principal text-center fw-bold pt-5">PROGRAMAÇÃO</h3>
+                        <h2 class="text-principal text-center fw-bold pt-5">PROGRAMAÇÃO</h2>
                     </div>
                 </div>
             </div>
             <div class="container p-lg-3 d-flex align-items-start">
                 <ul class="nav nav-pills flex-column nav-pills border-end border-3 me-3 align-items-end" id="pills-tab" role="tablist">
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link text-dark fw-semibold active position-relative fs-5 btn btn-outline-danger" id="pills-pgm1-tab" data-bs-toggle="pill" data-bs-target="#pills-pgm1" type="button" role="tab" aria-controls="pills-pgm1" aria-selected="true">Abertura</button>
+                        <button class="nav-link text-dark fw-semibold active position-relative fs-5 btn btn-outline-principal" id="pills-pgm1-tab" data-bs-toggle="pill" data-bs-target="#pills-pgm1" type="button" role="tab" aria-controls="pills-pgm1" aria-selected="true">Abertura</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link text-dark fw-semibold position-relative fs-5 btn btn-outline-danger" id="pills-pgm2-tab" data-bs-toggle="pill" data-bs-target="#pills-pgm2" type="button" role="tab" aria-controls="pills-pgm2" aria-selected="false">Módulo 1</button>
+                        <button class="nav-link text-dark fw-semibold position-relative fs-5 btn btn-outline-principal" id="pills-pgm2-tab" data-bs-toggle="pill" data-bs-target="#pills-pgm2" type="button" role="tab" aria-controls="pills-pgm2" aria-selected="false">Módulo 1</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link text-dark fw-semibold position-relative fs-5 btn btn-outline-danger" id="pills-pgm3-tab" data-bs-toggle="pill" data-bs-target="#pills-pgm3" type="button" role="tab" aria-controls="pills-pgm3" aria-selected="false">Módulo 2</button>
+                        <button class="nav-link text-dark fw-semibold position-relative fs-5 btn btn-outline-principal" id="pills-pgm3-tab" data-bs-toggle="pill" data-bs-target="#pills-pgm3" type="button" role="tab" aria-controls="pills-pgm3" aria-selected="false">Módulo 2</button>
                     </li>
                 </ul>
                 <div class="tab-content bg-white border rounded-3 border-secondary-subtle shadow p-3 text-dark w-100" id="pills-tabContent">
@@ -482,9 +489,9 @@ include_once "../assets/php/session.php";
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-9">
-                        <h3 class="text-principal text-center fw-bold pt-5">
+                        <h2 class="text-principal text-center fw-bold pt-5">
                             REALIZAÇÃO
-                        </h3>
+                        </h2>
                         <div class="row my-5 justify-content-center gap-5">
                             <div class="col-4 col-lg-2 align-self-center">
                                 <img src="../assets/img/logo.png" alt="" class="w-100">
@@ -494,9 +501,9 @@ include_once "../assets/php/session.php";
                 </div>
                 <div class="row justify-content-center pt-3">
                     <div class="col-lg-9">
-                        <h3 class="text-principal text-center fw-bold">
+                        <h2 class="text-principal text-center fw-bold">
                             APOIO
-                        </h3>
+                        </h2>
                         <div class="row my-5 justify-content-center">
                             <div class="col-6 col-md-4 col-lg-3 pb-3 mb-3">
                                 <a target="_blank" href="https://avanos.com/">
@@ -615,6 +622,8 @@ include_once "../assets/php/session.php";
                 </div>
             </div>
         </section>
+
+        <a href="../login" class="btn btn-principal px-5 fs-5 pulsing" id="floating-btn">ACESSAR</a>
     </main>
 
     <?php include_once "../resources/footer.php"; ?>

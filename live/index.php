@@ -27,9 +27,9 @@ include_once "../assets/php/session.php";
 
         <section>
             <div class="container my-5">
-                <h2 class="fst-italic">
+                <h3 class="text-principal mb-3">
                     Curso Interativo: Caracterização e Indicação Terapêutica de Lesões Colorretais
-                </h2>
+                </h3>
                 <div class="row mb-3">
                     <div class="col-xl-9">
                         <div class="row">
