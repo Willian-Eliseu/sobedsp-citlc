@@ -7,7 +7,7 @@ include_once "../assets/php/session.php";
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SOBED-SP & VOCÊ</title>
+    <title>SOBED-SP Curso Interativo</title>
     <meta name="description" content="<?= $_SESSION[NOME_SESSAO]['description'] ?>">
     <meta name="keywords" content="<?= $_SESSION[NOME_SESSAO]['keywords'] ?>">
     <meta name="author" content="TBR Produções">
@@ -24,38 +24,35 @@ include_once "../assets/php/session.php";
     <main id="main">
         <section>
             <!-- header -->
-            <img src="../assets/img/banner.png" alt="" class="w-100">
+            <img src="../assets/img/banner.png" alt="" class="w-100" onclick="window.location.href='../subscribe'">
         </section>
         <!-- o evento -->
         <section class="bg-light py-5">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-9">
-                        <h3 class="text-principal text-center fw-bold pt-5">DESAFIOS DA GESTÃO DA CARREIRA EM ENDOSCOPIA</h3>
+                        <h3 class="text-principal text-center fw-bold pt-5">Caracterização e Indicação Terapêutica de Lesões Colorretais</h3>
                         <p class="fs-5">
-                            O curso será realizado no dia 28 de setembro de 2024 na sede da Sociedade de Medicina e
-                            Cirurgia de Campinas (SMCC).
+                            O curso será realizado no dia 21 de setembro de 2024 de forma online.
                             <br>
-                            As inscrições estão abertas para as modalidades: presencial e online.
+                            As inscrições estão abertas.
                             <br>
-                            Há limite de 106 vagas para participação presencial.
-                            <br>
-                            Após esta quantidade, estará disponível apenas a inscrição online.
+                            O curso será realizado de modo interativo, contando com a participação dos inscritos.
                         </p>
                     </div>
                 </div>
             </div>
         </section>
         <!-- inscrição -->
-        <section class="py-5">
+        <section class="py-5" id="subscribe">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-9">
                         <h3 class="text-principal text-center fw-bold pt-5">INSCRIÇÃO</h3>
                         <p class="fs-5">
-                            SOBED-SP & VOCÊ: Desafios da gestão da carreira em endoscopia
+                            Curso Interativo: Caracterização e Indicação Terapêutica de Lesões Colorretais
                             <br>
-                            Evento misto com transmissão ao vivo no dia 28 de setembro de 2024 a partir das 08h00
+                            Evento online com transmissão ao vivo no dia 21 de setembro de 2024 a partir das 08h00
                             (horário de Brasília)
                         </p>
 
@@ -72,7 +69,7 @@ include_once "../assets/php/session.php";
                 <div class="row justify-content-center">
                     <div class="col-lg-9">
                         <h3 class="text-principal text-center fw-bold pt-5">PARTICIPANTES</h3>
-                        <p class="fs-5">
+                        <p class="fs-5 py-3">
                             Confira abaixo os participantes do evento
                         </p>
                     </div>
@@ -80,519 +77,390 @@ include_once "../assets/php/session.php";
                 <div class="row justify-content-center">
                     <div class="col-lg-9">
                         <div class="row mb-3 g-3">
-                            <div class="col-md-6 col-lg-4">
-                                <div class="p-3 rounded-3 bg-box hover-effect participants">
-                                    <figure class="mb-0">
-                                        <img src="../assets/img/participantes/tomazo_franzini.webp" alt="foto do palestrante" class="w-100">
-                                        <p class="bg-secondary bg-opacity-50 text-white mb-0 py-3 fs-5 fw-bold floating-name text-center">
-                                            Tomazo Franzini
-                                        </p>
-                                        <figcaption class="overlay d-flex">
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <p class="m-0">
-                                                    <ul>
-                                                        <li>Doutor em Ciências em Gastroenterologia;</li>
-                                                        <li>MBA em Gestão de Saúde;</li>
-                                                        <li>Coordenador Médico Gastro/Endoscopia Dasa;</li>
-                                                        <li>Presidente da SOBED-SP;</li>
-                                                    </ul>
-                                                    </p>
-                                                </div>
-                                                <div class="col-12 align-self-end">
-                                                    <p class="m-0 golden fs-5 fw-bold">
-                                                        Tomazo Franzini
-                                                    </p>
-                                                    <!-- <p class="m-0">
-                                                        Presidente da SOBED-SP
-                                                    </p> -->
-                                                </div>
-                                            </div>
-                                        </figcaption>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="p-3 rounded-pill bg-box shadow">
+                                    <figure class="mb-0 rounded-pill">
+                                        <img src="../assets/img/participantes/adriana.png" alt="foto do palestrante" class="w-100">
                                     </figure>
                                 </div>
+                                <p class="text-principal mb-0 pb-3 fs-5 fw-bold text-center">
+                                    Adriana Costa Genzini
+                                </p>
                             </div>
-                            <div class="col-md-6 col-lg-4">
-                                <div class="p-3 rounded-3 bg-box hover-effect participants">
-                                    <figure class="mb-0">
-                                        <img src="../assets/img/participantes/rodrigo_azevedo.webp" alt="foto do palestrante" class="w-100">
-                                        <p class="bg-secondary bg-opacity-50 text-white mb-0 py-3 fs-5 fw-bold floating-name text-center">
-                                            Rodrigo A. de Oliveira
-                                        </p>
-                                        <figcaption class="overlay d-flex">
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <p class="m-0">
-                                                    <ul>
-                                                        <li>Coordenador médico do Serviço de Endoscopia do Hospital
-                                                            Regional de Piracicaba / Unicamp</li>
-                                                        <li>Título de especialista da Sociedade Brasileira de Endoscopia
-                                                            Digestiva;</li>
-                                                        <li>Especialização em Endoscopia Digestiva;</li>
-                                                        <li>Mestrado em andamento pelo Hospital Sírio-Libanês;</li>
-                                                    </ul>
-                                                    </p>
-                                                </div>
-                                                <div class="col-12 align-self-end">
-                                                    <p class="m-0 golden fs-5 fw-bold">
-                                                        Rodrigo A. de Oliveira
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </figcaption>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="p-3 rounded-pill bg-box shadow">
+                                    <figure class="mb-0 rounded-pill">
+                                        <img src="../assets/img/participantes/claudio.png" alt="foto do palestrante" class="w-100">
                                     </figure>
                                 </div>
+                                <p class="text-principal mb-0 pb-3 fs-5 fw-bold text-center">
+                                    Cláudio Hashimoto
+                                </p>
                             </div>
-                            <div class="col-md-6 col-lg-4">
-                                <div class="p-3 rounded-3 bg-box hover-effect participants">
-                                    <figure class="mb-0">
-                                        <img src="../assets/img/participantes/marcelo_camargo.webp" alt="foto do palestrante" class="w-100">
-                                        <p class="bg-secondary bg-opacity-50 text-white mb-0 py-3 fs-5 fw-bold floating-name text-center">
-                                            Marcelo Amade
-                                        </p>
-                                        <figcaption class="overlay d-flex">
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <p class="m-0">
-                                                    <ul>
-                                                        <li>Professor Faculdade de Medicina São Leopoldo Mandic;</li>
-                                                        <li>Coordenador do Serviço de Endoscopia Digestiva do Hospital
-                                                            São Luiz;</li>
-                                                        <li>Vice Presidente da Sociedade de Medicina e Cirurgia de Campinas;</li>
-                                                    </ul>
-                                                    </p>
-                                                </div>
-                                                <div class="col-12 align-self-end">
-                                                    <p class="m-0 golden fs-5 fw-bold">
-                                                        Marcelo Amade
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </figcaption>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="p-3 rounded-pill bg-box shadow">
+                                    <figure class="mb-0 rounded-pill">
+                                        <img src="../assets/img/participantes/elisa.png" alt="foto do palestrante" class="w-100">
                                     </figure>
                                 </div>
+                                <p class="text-principal mb-0 pb-3 fs-5 fw-bold text-center">
+                                    Elisa Baba
+                                </p>
                             </div>
-                            <div class="col-md-6 col-lg-4">
-                                <div class="p-3 rounded-3 bg-box hover-effect participants">
-                                    <figure class="mb-0">
-                                        <img src="../assets/img/participantes/bruno_falascina.webp" alt="foto do palestrante" class="w-100">
-                                        <p class="bg-secondary bg-opacity-50 text-white mb-0 py-3 fs-5 fw-bold floating-name text-center">
-                                            Bruno Falascina
-                                        </p>
-                                        <figcaption class="overlay d-flex">
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <p class="m-0">
-                                                    <ul>
-                                                        <li>Graduado em Medicina pela Faculdade de Ciências Médicas de
-                                                            Santos, Residência Médica em Cirurgia Geral pela Faculdade
-                                                            de Medicina de Jundiaí, Residência Médica em Endoscopia
-                                                            Digestiva pelo Hospital Nove de Julho e Hospital Ipiranga em
-                                                            São Paulo/SP;</li>
-                                                        <li>MBA Gestão em Saúde pela Fundação Getúlio Vagas;</li>
-                                                    </ul>
-                                                    </p>
-                                                </div>
-                                                <div class="col-12 align-self-end">
-                                                    <p class="m-0 golden fs-5 fw-bold">
-                                                        Bruno Falascina
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </figcaption>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="p-3 rounded-pill bg-box shadow">
+                                    <figure class="mb-0 rounded-pill">
+                                        <img src="../assets/img/participantes/eduardo.png" alt="foto do palestrante" class="w-100">
                                     </figure>
                                 </div>
+                                <p class="text-principal mb-0 pb-3 fs-5 fw-bold text-center">
+                                    Eduardo Ogawa
+                                </p>
                             </div>
-                            <div class="col-md-6 col-lg-4">
-                                <div class="p-3 rounded-3 bg-box hover-effect participants">
-                                    <figure class="mb-0">
-                                        <img src="../assets/img/participantes/anderson_freitas.webp" alt="foto do palestrante" class="w-100">
-                                        <p class="bg-secondary bg-opacity-50 text-white mb-0 py-3 fs-5 fw-bold floating-name text-center">
-                                            Anderson Freitas
-                                        </p>
-                                        <figcaption class="overlay d-flex">
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <p class="m-0">
-                                                    <ul>
-                                                        <li>Coordenador do Serviço de Endoscopia do Hospital Vivalle;
-                                                        </li>
-                                                        <li>Coordenador do Serviço de Endoscopia do Hospital Regional do
-                                                            Vale do Paraíba, Hospital Regional São José dos Campos e
-                                                            Hospital Regional do Litoral Norte;</li>
-                                                    </ul>
-                                                    </p>
-                                                </div>
-                                                <div class="col-12 align-self-end">
-                                                    <p class="m-0 golden fs-5 fw-bold">
-                                                        Anderson Freitas
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </figcaption>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="p-3 rounded-pill bg-box shadow">
+                                    <figure class="mb-0 rounded-pill">
+                                        <img src="../assets/img/participantes/fabio.png" alt="foto do palestrante" class="w-100">
                                     </figure>
                                 </div>
+                                <p class="text-principal mb-0 pb-3 fs-5 fw-bold text-center">
+                                    Fábio Kawaguti
+                                </p>
                             </div>
-                            <div class="col-md-6 col-lg-4">
-                                <div class="p-3 rounded-3 bg-box hover-effect participants">
-                                    <figure class="mb-0">
-                                        <img src="../assets/img/participantes/paula_poletti.webp" alt="foto do palestrante" class="w-100">
-                                        <p class="bg-secondary bg-opacity-50 text-white mb-0 py-3 fs-5 fw-bold floating-name text-center">
-                                            Paula Poletti
-                                        </p>
-                                        <figcaption class="overlay d-flex">
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <p class="m-0">
-                                                    <ul>
-                                                        <li>Diretora do Serviço de Gastroenterologia e Hepatologia do
-                                                            Hospital do Servidor Público Estadual de São Paulo;</li>
-                                                        <li>Membro da Comissão Científica da SOBED SP – Gestão
-                                                            2023/2024;</li>
-                                                    </ul>
-                                                    </p>
-                                                </div>
-                                                <div class="col-12 align-self-end">
-                                                    <p class="m-0 golden fs-5 fw-bold">
-                                                        Paula Poletti
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </figcaption>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="p-3 rounded-pill bg-box shadow">
+                                    <figure class="mb-0 rounded-pill">
+                                        <img src="../assets/img/participantes/francisco.png" alt="foto do palestrante" class="w-100">
                                     </figure>
                                 </div>
+                                <p class="text-principal mb-0 pb-3 fs-5 fw-bold text-center">
+                                    Francisco Sussumu
+                                </p>
                             </div>
-                            <div class="col-md-6 col-lg-4">
-                                <div class="p-3 rounded-3 bg-box hover-effect participants">
-                                    <figure class="mb-0">
-                                        <img src="../assets/img/participantes/leonardo_vedolin.webp" alt="foto do palestrante" class="w-100">
-                                        <p class="bg-secondary bg-opacity-50 text-white mb-0 py-3 fs-5 fw-bold floating-name text-center">
-                                            Leonardo Vedolin
-                                        </p>
-                                        <figcaption class="overlay d-flex">
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <p class="m-0">
-                                                    <ul>
-                                                        <li>Médico, professor e pesquisador;</li>
-                                                        <li>Doutor em Medicina, UFRGS;</li>
-                                                        <li>Vice-Presidente Médico da Dasa;</li>
-                                                    </ul>
-                                                    </p>
-                                                </div>
-                                                <div class="col-12 align-self-end">
-                                                    <p class="m-0 golden fs-5 fw-bold">
-                                                        Leonardo Vedolin
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </figcaption>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="p-3 rounded-pill bg-box shadow">
+                                    <figure class="mb-0 rounded-pill">
+                                        <img src="../assets/img/participantes/graziela.png" alt="foto do palestrante" class="w-100">
                                     </figure>
                                 </div>
+                                <p class="text-principal mb-0 pb-3 fs-5 fw-bold text-center">
+                                    Graziela Bomfim
+                                </p>
                             </div>
-                            <div class="col-md-6 col-lg-4">
-                                <div class="p-3 rounded-3 bg-box hover-effect participants">
-                                    <figure class="mb-0">
-                                        <img src="../assets/img/participantes/julia_lazaro.webp" alt="foto do palestrante" class="w-100">
-                                        <p class="bg-secondary bg-opacity-50 text-white mb-0 py-3 fs-5 fw-bold floating-name text-center">
-                                            Júlia de Castilho Lázaro
-                                        </p>
-                                        <figcaption class="overlay d-flex">
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <p class="m-0">
-                                                    <ul>
-                                                        <li>Formada em Administração pela UNESP</li>
-                                                        <li>Especialista em Economia pela FGV;</li>
-                                                        <li>MBA Pleno pela Universidade de Ohio/FGV</li>
-                                                    </ul>
-                                                    </p>
-                                                </div>
-                                                <div class="col-12 align-self-end">
-                                                    <p class="m-0 golden fs-5 fw-bold">
-                                                        Júlia de Castilho Lázaro
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </figcaption>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="p-3 rounded-pill bg-box shadow">
+                                    <figure class="mb-0 rounded-pill">
+                                        <img src="../assets/img/participantes/jose.png" alt="foto do palestrante" class="w-100">
                                     </figure>
                                 </div>
+                                <p class="text-principal mb-0 pb-3 fs-5 fw-bold text-center">
+                                    José Olympio Meirelles
+                                </p>
                             </div>
-                            <div class="col-md-6 col-lg-4">
-                                <div class="p-3 rounded-3 bg-box hover-effect participants">
-                                    <figure class="mb-0">
-                                        <img src="../assets/img/participantes/ricardo_tedeschi.webp" alt="foto do palestrante" class="w-100">
-                                        <p class="bg-secondary bg-opacity-50 text-white mb-0 py-3 fs-5 fw-bold floating-name text-center">
-                                            Ricardo Tedeschi Matos
-                                        </p>
-                                        <figcaption class="overlay d-flex">
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <p class="m-0">
-                                                    <ul>
-                                                        <li>Especialista em Cirurgia Geral e Endoscopia Digestiva;</li>
-                                                        <li>Mestre em Gastroenterologia pela FMUSP;</li>
-                                                        <li>MBA Executivo em Gestão de Cooperativas Financeiras pela
-                                                            FGV;</li>
-                                                        <li>Diretor 14 Distrital da APM;</li>
-                                                    </ul>
-                                                    </p>
-                                                </div>
-                                                <div class="col-12 align-self-end">
-                                                    <p class="m-0 golden fs-5 fw-bold">
-                                                        Ricardo Tedeschi Matos
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </figcaption>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="p-3 rounded-pill bg-box shadow">
+                                    <figure class="mb-0 rounded-pill">
+                                        <img src="../assets/img/participantes/renata.png" alt="foto do palestrante" class="w-100">
                                     </figure>
                                 </div>
+                                <p class="text-principal mb-0 pb-3 fs-5 fw-bold text-center">
+                                    Renata Nobre
+                                </p>
                             </div>
-                            <div class="col-md-6 col-lg-4">
-                                <div class="p-3 rounded-3 bg-box hover-effect participants">
-                                    <figure class="mb-0">
-                                        <img src="../assets/img/participantes/gerson_cesar.webp" alt="foto do palestrante" class="w-100">
-                                        <p class="bg-secondary bg-opacity-50 text-white mb-0 py-3 fs-5 fw-bold floating-name text-center">
-                                            Gérson Cesar Brasil Júnior
-                                        </p>
-                                        <figcaption class="overlay d-flex">
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <p class="m-0">
-                                                    <ul>
-                                                        <li>Médico Assistente do Serviço de Endoscopia do Hospital
-                                                            Universitário Oswaldo Cruz da Universidade de Pernambuco
-                                                        </li>
-                                                        <li>Sócio diretor da MultiGastro – Serviço de Endoscopia dos
-                                                            Hospitais Memorial São José e Esperança Olinda;</li>
-                                                        <li>Coordenador do Serviço de Endoscopia do Hospital Memorial
-                                                            Star;</li>
-                                                    </ul>
-                                                    </p>
-                                                </div>
-                                                <div class="col-12 align-self-end">
-                                                    <p class="m-0 golden fs-5 fw-bold">
-                                                        Gérson Cesar Brasil Júnior
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </figcaption>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="p-3 rounded-pill bg-box shadow">
+                                    <figure class="mb-0 rounded-pill">
+                                        <img src="../assets/img/participantes/renato.png" alt="foto do palestrante" class="w-100">
                                     </figure>
                                 </div>
+                                <p class="text-principal mb-0 pb-3 fs-5 fw-bold text-center">
+                                    Renato Hassegawa
+                                </p>
+                            </div>
+                            <div class="col-md-6 col-lg-4 col-xl-3">
+                                <div class="p-3 rounded-pill bg-box shadow">
+                                    <figure class="mb-0 rounded-pill">
+                                        <img src="../assets/img/participantes/tomazo.png" alt="foto do palestrante" class="w-100">
+                                    </figure>
+                                </div>
+                                <p class="text-principal mb-0 pb-3 fs-5 fw-bold text-center">
+                                    Tomazo Franzini
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
         <!-- programação -->
         <section class="py-5" id="schedule">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-9">
-                        <h3 class="text-principal text-center fw-bold pt-5">
-                            PROGRAMAÇÃO
-                        </h3>
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="text-principal text-center fw-bold pt-5">PROGRAMAÇÃO</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="container p-lg-3 d-flex align-items-start">
+                <ul class="nav nav-pills flex-column nav-pills border-end border-3 me-3 align-items-end" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link text-dark fw-semibold active position-relative fs-5 btn btn-outline-danger" id="pills-pgm1-tab" data-bs-toggle="pill" data-bs-target="#pills-pgm1" type="button" role="tab" aria-controls="pills-pgm1" aria-selected="true">Abertura</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link text-dark fw-semibold position-relative fs-5 btn btn-outline-danger" id="pills-pgm2-tab" data-bs-toggle="pill" data-bs-target="#pills-pgm2" type="button" role="tab" aria-controls="pills-pgm2" aria-selected="false">Módulo 1</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link text-dark fw-semibold position-relative fs-5 btn btn-outline-danger" id="pills-pgm3-tab" data-bs-toggle="pill" data-bs-target="#pills-pgm3" type="button" role="tab" aria-controls="pills-pgm3" aria-selected="false">Módulo 2</button>
+                    </li>
+                </ul>
+                <div class="tab-content bg-white border rounded-3 border-secondary-subtle shadow p-3 text-dark w-100" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-pgm1" role="tabpanel" aria-labelledby="pills-pgm1-tab">
                         <div class="row">
-                            <div class="col-12 rounded-5 shadow py-1">
-                                <div class="px-md-5">
-                                    <h4 class="fw-bold">
-                                        Organização:
-                                    </h4>
-                                    <p class="fs-5 lh-1">
-                                        Tomazo Franzini
-                                        <br>
-                                        <span class="fs-6">Presidente SOBED-SP</span>
-                                    </p>
-                                    <p class="fs-5 lh-1">
-                                        Rodrigo Azevedo de Oliveira
-                                        <br>
-                                        <span class="fs-6">Coordenador médico do Serviço de Endoscopia do Hospital
-                                            Regional de Piracicaba / Unicamp</span>
+                            <div class="row p-3">
+                                <div class="col-9 mx-auto col-md-2 align-self-center relative-element">
+                                    
+                                </div>
+                                <div class="col-md-10 align-self-center">
+                                    <p class="fs-4 fw-bold fst-italic">
+                                        Abertura e Apresentação dos palestrantes
                                     </p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 rounded-5 shadow py-1">
-                                <div class="px-md-5 pt-3">
-                                    <h4 class="fw-bold">
-                                        Moderação:
-                                    </h4>
-                                    <p class="fs-5 lh-1">
-                                        Marcelo Amade
-                                        <br>
-                                        <span class="fs-6">Vice-Presidente da Sociedade de Medicina e Cirurgia de
-                                            Campinas</span>
+                            <div class="row p-3">
+                                <div class="col-9 mx-auto col-md-2 align-self-center relative-element">
+                                    <img src="../assets/img/participantes/tomazo.png" alt="" class="w-100 rounded-pill border border-2 bg-box">
+                                </div>
+                                <div class="col-md-10 align-self-center">
+                                    <p class="fs-5 fw-bold fst-italic">
+                                        Explicação sobre atividade interativa
+                                    </p>
+                                    <p class="fs-5">
+                                        <b>Apresentação: </b> Tomazo Franzini
                                     </p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-12 rounded-5 shadow py-1">
-                                <div class="px-md-5 pt-3">
-                                    <h4 class="fw-bold">
-                                        Debatedores:
-                                    </h4>
-                                    <p class="fs-5 lh-1">
-                                        Bruno Falascina
-                                        <br>
-                                        <span class="fs-6">Membro Titular Especialista da Sobed</span>
+                            <div class="row p-3">
+                                <div class="col-9 mx-auto col-md-2 align-self-center relative-element">
+                                    <img src="../assets/img/participantes/adriana.png" alt="" class="w-100 rounded-pill border border-2 bg-box">
+                                </div>
+                                <div class="col-md-10 align-self-center">
+                                    <p class="fs-5 fw-bold fst-italic">
+                                        Explicação sobre atividade interativa
                                     </p>
-                                    <p class="fs-5 lh-1">
-                                        Anderson Freitas Silva
-                                        <br>
-                                        <span class="fs-6">Coordenador do Serviço de Endoscopia do Hospital
-                                            Vivalle</span>
+                                    <p class="fs-5">
+                                        <b>Apresentação: </b> Adriana Costa Genzini
                                     </p>
                                 </div>
                             </div>
+                            
                         </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-pgm2" role="tabpanel" aria-labelledby="pills-pgm2-tab">
                         <div class="row">
-                            <div class="col-12 rounded-5 shadow py-1">
-                                <div class="row px-md-5 pt-3">
-                                    <div class="col-2 col-md-1">
-                                        <h5 class="fw-bold">08h00</h5>
-                                    </div>
-                                    <div class="col">
-                                        <h5 class="">
-                                            Abertura
-                                        </h5>
-                                    </div>
+                            <div class="row p-3">
+                                <div class="col-9 mx-auto col-md-2 align-self-center relative-element">
+                                    
                                 </div>
-                                <div class="row px-md-5 pt-3">
-                                    <div class="col-2 col-md-1">
-                                        <h5 class="fw-bold">08h10</h5>
-                                    </div>
-                                    <div class="col">
-                                        <h5 class="">Legislação em Endoscopia Digestiva: o que o médico
-                                            endoscopista precisa saber?</h5>
-                                    </div>
+                                <div class="col-md-10 align-self-center">
+                                    <p class="fs-4 fw-bold fst-italic">
+                                        CARACTERIZAÇÃO E INTERPRETAÇÃO DOS ACHADOS ENDOSCÓPICOS
+                                    </p>
                                 </div>
-                                <div class="row px-md-5">
-                                    <div class="col-2 col-md-1">
-
-                                    </div>
-                                    <div class="col">
-                                        <p class="fs-5 lh-1">
-                                            Paula Poletti
-                                            <br>
-                                            <span class="fs-6">Diretora do Serviço de Gastroenterologia e Hepatologia do Hospital do Servidor Público Estadual de São Paulo</span>
-                                        </p>
-                                    </div>
+                            </div>
+                            <div class="row p-3">
+                                <div class="col-9 mx-auto col-md-2 align-self-center relative-element">
+                                    <img src="../assets/img/participantes/graziela.png" alt="Graziela Bomfim" class="w-100 rounded-pill border border-2 bg-box">
                                 </div>
-                                <div class="row px-md-5 pt-3">
-                                    <div class="col-2 col-md-1">
-                                        <h5 class="fw-bold">08h40</h5>
-                                    </div>
-                                    <div class="col">
-                                        <h5 class="">Fusões, aquisições e verticalização: como as movimentações do
-                                            mercado da saúde afetam as perspectivas do médico endoscopista</h5>
-                                    </div>
+                                <div class="col-md-10 align-self-center">
+                                    <p class="fs-5 fw-bold fst-italic">
+                                        08:10 - PRÉ TESTE Apresentação de imagens de casos clínicos para votação inicial dos participantes (4 casos clínicos)
+                                    </p>
+                                    <p class="fs-5">
+                                        <b>Palestrante: </b> Graziela Bomfim
+                                    </p>
                                 </div>
-                                <div class="row px-md-5">
-                                    <div class="col-2 col-md-1">
-
-                                    </div>
-                                    <div class="col">
-                                        <p class="fs-5 lh-1">
-                                            Leonardo Vedolin
-                                            <br>
-                                            <span class="fs-6">Vice-Presidente Médico da Dasa</span>
-                                        </p>
-                                    </div>
+                            </div>
+                            <div class="row p-3">
+                                <div class="col-9 mx-auto col-md-2 align-self-center relative-element">
+                                    <img src="../assets/img/participantes/renata.png" alt="Renata Nobre" class="w-100 rounded-pill border border-2 bg-box">
                                 </div>
-                                <div class="row px-md-5 pt-3">
-                                    <div class="col-2 col-md-1">
-                                        <h5 class="fw-bold">09h10</h5>
-                                    </div>
-                                    <div class="col">
-                                        <h5 class="">Debate</h5>
-                                    </div>
+                                <div class="col-md-10 align-self-center">
+                                    <p class="fs-5 fw-bold fst-italic">
+                                        08:20 - Classificação Morfológica das Lesoes Colorretais
+                                    </p>
+                                    <p class="fs-5">
+                                        <b>Palestrante: </b> Renata Nobre
+                                    </p>
                                 </div>
-                                <div class="row px-md-5 pt-3">
-                                    <div class="col-2 col-md-1">
-                                        <h5 class="fw-bold">09h30</h5>
-                                    </div>
-                                    <div class="col">
-                                        <h5 class="">Intervalo</h5>
-                                    </div>
+                            </div>
+                            <div class="row p-3">
+                                <div class="col-9 mx-auto col-md-2 align-self-center relative-element">
+                                    <img src="../assets/img/participantes/eduardo.png" alt="Eduardo" class="w-100 rounded-pill border border-2 bg-box">
                                 </div>
-                                <div class="row px-md-5 pt-3">
-                                    <div class="col-2 col-md-1">
-                                        <h5 class="fw-bold">09h50</h5>
-                                    </div>
-                                    <div class="col">
-                                        <h5 class="">Planejamento tributário para médicos</h5>
-                                    </div>
+                                <div class="col-md-10 align-self-center">
+                                    <p class="fs-5 fw-bold fst-italic">
+                                        08:40 - Classificação padrão de Criptas e padrão Vascular
+                                    </p>
+                                    <p class="fs-5">
+                                        <b>Palestrante: </b> Eduardo Ogawa
+                                    </p>
                                 </div>
-                                <div class="row px-md-5">
-                                    <div class="col-2 col-md-1">
-
-                                    </div>
-                                    <div class="col">
-                                        <p class="fs-5 lh-1">
-                                            Júlia de Castilho Lázaro
-                                            <br>
-                                            <span class="fs-6">CEO da Mitfokus</span>
-                                        </p>
-                                    </div>
+                            </div>
+                            <div class="row p-3">
+                                <div class="col-9 mx-auto col-md-2 align-self-center relative-element">
+                                    <img src="../assets/img/participantes/renato.png" alt="Renato" class="w-100 rounded-pill border border-2 bg-box">
                                 </div>
-                                <div class="row px-md-5 pt-3">
-                                    <div class="col-2 col-md-1">
-                                        <h5 class="fw-bold">10h20</h5>
-                                    </div>
-                                    <div class="col">
-                                        <h5 class="">Cooperativas médicas de endoscopistas: umas solução possível?</h5>
-                                    </div>
+                                <div class="col-md-10 align-self-center">
+                                    <p class="fs-5 fw-bold fst-italic">
+                                        09:10 - Lesões Serrilhadas - identificação de displasias
+                                    </p>
+                                    <p class="fs-5">
+                                        <b>Palestrante: </b> Renato Hassegawa
+                                    </p>
                                 </div>
-                                <div class="row px-md-5">
-                                    <div class="col-2 col-md-1">
-
-                                    </div>
-                                    <div class="col">
-                                        <p class="fs-5 lh-1">
-                                            Ricardo Tedeschi Matos
-                                            <br>
-                                            <span class="fs-6">Diretor 14 Distrital da APM</span>
-                                        </p>
-                                    </div>
+                            </div>
+                            <div class="row p-3">
+                                <div class="col-9 mx-auto col-md-2 align-self-center relative-element">
+                                    <img src="../assets/img/participantes/claudio.png" alt="Cláudio" class="w-100 rounded-pill border border-2 bg-box">
                                 </div>
-                                <div class="row px-md-5 pt-3">
-                                    <div class="col-2 col-md-1">
-                                        <h5 class="fw-bold">10h40</h5>
-                                    </div>
-                                    <div class="col">
-                                        <h5 class="">Os desafios econômicos para o médico endoscopista em 2024: da
-                                            otimização dos honorários médicos aos desafios do empreendedorismo</h5>
-                                    </div>
+                                <div class="col-md-10 align-self-center">
+                                    <p class="fs-5 fw-bold fst-italic">
+                                        09:30 - Dicas para boa documentação de imagens
+                                    </p>
+                                    <p class="fs-5">
+                                        <b>Palestrante: </b> Cláudio Hashimoto
+                                    </p>
                                 </div>
-                                <div class="row px-md-5">
-                                    <div class="col-2 col-md-1">
-
-                                    </div>
-                                    <div class="col">
-                                        <p class="fs-5 lh-1">
-                                            Gérson Brasil
-                                            <br>
-                                            <span class="fs-6">Coordenador do Serviço de Endoscopia do Hospital Memorial Star</span>
-                                        </p>
-                                    </div>
+                            </div>
+                            <div class="row p-3">
+                                <div class="col-9 mx-auto col-md-2 align-self-center relative-element">
+                                    <!-- <img src="../assets/img/participantes/claudio.png" alt="Graziela Bomfim" class="w-100 rounded-pill border border-2 bg-box"> -->
                                 </div>
-                                <div class="row px-md-5 py-3">
-                                    <div class="col-2 col-md-1">
-                                        <h5 class="fw-bold">11h20</h5>
-                                    </div>
-                                    <div class="col">
-                                        <h5 class="">Debate</h5>
-                                    </div>
+                                <div class="col-md-10 align-self-center">
+                                    <p class="fs-5 fw-bold fst-italic">
+                                        09:50 - PÓS TESTE - Reapresentação de Imagens para nova votação (casos clínicos)
+                                    </p>
+                                    <!-- <p class="fs-5">
+                                        <b>Palestrante: </b> Cláudio Hashimoto
+                                    </p> -->
+                                </div>
+                            </div>
+                            <div class="row p-3">
+                                <div class="col-9 mx-auto col-md-2 align-self-center relative-element">
+                                    <img src="../assets/img/participantes/elisa.png" alt="Elisa" class="w-100 rounded-pill border border-2 bg-box">
+                                </div>
+                                <div class="col-md-10 align-self-center">
+                                    <p class="fs-5 fw-bold fst-italic">
+                                        10:00 - PAINEL DE DISCUSSÃO (Perguntas e respostas)
+                                    </p>
+                                    <p class="fs-5">
+                                        <b>Moderadora: </b> Cláudio Hashimoto
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row p-3">
+                                <div class="col-9 mx-auto col-md-2 align-self-center relative-element">
+                                    <img src="../assets/img/participantes/francisco.png" alt="Francisco" class="w-100 rounded-pill border border-2 bg-box">
+                                </div>
+                                <div class="col-md-10 align-self-center">
+                                    <p class="fs-5 fw-bold fst-italic">
+                                        
+                                    </p>
+                                    <p class="fs-5">
+                                        <b>Moderador: </b> Francisco Sussumu
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="tab-pane fade" id="pills-pgm3" role="tabpanel" aria-labelledby="pills-pgm3-tab">
+                        <div class="row">
+                            <div class="row p-3">
+                                <div class="col-9 mx-auto col-md-2 align-self-center relative-element">
+                                    <img src="../assets/img/participantes/graziela.png" alt="Graziela" class="w-100 rounded-pill border border-2 bg-box">
+                                </div>
+                                <div class="col-md-10 align-self-center">
+                                    <p class="fs-5 fw-bold fst-italic">
+                                        10:20 - Apresentação 4 lesões para votação da terapia de escolha
+                                    </p>
+                                    <p class="fs-5">
+                                        <b>Palestrante: </b> Graziela Bomfim
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row p-3">
+                                <div class="col-9 mx-auto col-md-2 align-self-center relative-element">
+                                    <img src="../assets/img/participantes/fabio.png" alt="Fábio" class="w-100 rounded-pill border border-2 bg-box">
+                                </div>
+                                <div class="col-md-10 align-self-center">
+                                    <p class="fs-5 fw-bold fst-italic">
+                                        10:30 - MUCOSECTOMIA e ESD - diferentes técnicas, dicas práticas para sua realização e profilaxia complicações
+                                    </p>
+                                    <p class="fs-5">
+                                        <b>Palestrante: </b> Fábio Kawaguti
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row p-3">
+                                <div class="col-9 mx-auto col-md-2 align-self-center relative-element">
+                                    <img src="../assets/img/participantes/adriana.png" alt="Adriana" class="w-100 rounded-pill border border-2 bg-box">
+                                </div>
+                                <div class="col-md-10 align-self-center">
+                                    <p class="fs-5 fw-bold fst-italic">
+                                        11:00 - Atualização Guideline sobre Indicação Terapêutica de LST colorretais
+                                    </p>
+                                    <p class="fs-5">
+                                        <b>Palestrante: </b> Adriana Costa
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row p-3">
+                                <div class="col-9 mx-auto col-md-2 align-self-center relative-element">
+                                    
+                                </div>
+                                <div class="col-md-10 align-self-center">
+                                    <p class="fs-5 fw-bold fst-italic">
+                                        Nova votação
+                                    </p>
+                                    <p class="fs-5">
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row p-3">
+                                <div class="col-9 mx-auto col-md-2 align-self-center relative-element">
+                                    <img src="../assets/img/participantes/jose.png" alt="José" class="w-100 rounded-pill border border-2 bg-box">
+                                </div>
+                                <div class="col-md-10 align-self-center">
+                                    <p class="fs-5 fw-bold fst-italic">
+                                        11:30 - PAINEL DE DISCUSSÃO (perguntas e respostas)
+                                    </p>
+                                    <p class="fs-5">
+                                        <b>Moderador: </b> José Olympio Meirelles
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row p-3">
+                                <div class="col-9 mx-auto col-md-2 align-self-center relative-element">
+                                    <img src="../assets/img/participantes/tomazo.png" alt="Tomazo" class="w-100 rounded-pill border border-2 bg-box">
+                                </div>
+                                <div class="col-md-10 align-self-center">
+                                    <p class="fs-5 fw-bold fst-italic">
+                                        
+                                    </p>
+                                    <p class="fs-5">
+                                        <b>Moderador: </b> Tomazo Franzini
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
                 </div>
             </div>
         </section>
+
+        <?php /* ?>
         <!-- localização -->
         <section class="py-5 bg-light">
             <div class="container">
@@ -607,8 +475,10 @@ include_once "../assets/php/session.php";
                 </div>
             </div>
         </section>
+        <?php */ ?>
+
         <!-- organização e apoio -->
-        <section class="py-5">
+        <section class="py-5 bg-light">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-9">
@@ -618,9 +488,6 @@ include_once "../assets/php/session.php";
                         <div class="row my-5 justify-content-center gap-5">
                             <div class="col-4 col-lg-2 align-self-center">
                                 <img src="../assets/img/logo.png" alt="" class="w-100">
-                            </div>
-                            <div class="col-4 col-lg-2 align-self-center">
-                                <img src="../assets/img/smcc.png" alt="" class="w-100">
                             </div>
                         </div>
                     </div>

@@ -1,7 +1,6 @@
 <?php
 
 include_once "../assets/php/session.php";
-include_once "./subscribe.control.php";
 
 ?>
 <!DOCTYPE html>
@@ -37,17 +36,6 @@ include_once "./subscribe.control.php";
                     <p class="text-center">
                         Para participar do evento, preencha o formulário abaixo
                     </p>
-                    <p class="py-3 text-center fs-4">
-                        <?php if($vagaspresenciaisdisponiveis > 1){ ?>
-                        <span class="pulsing py-1 px-3">
-                            <?= $vagaspresenciaisdisponiveis ?> vagas presenciais disponíveis
-                        </span>
-                        <?php }else{ ?>
-                        <span class="pulsing py-1 px-3">
-                            As vagas presenciais esgotaram. Por favor, faça sua inscrição para acompanhar o evento online.
-                        </span>
-                        <?php } ?>
-                    </p>
                 </div>
             </section>
             <section class="mb-3">
@@ -65,10 +53,7 @@ include_once "./subscribe.control.php";
                                         <select name="subscribe_training_center" id="subscribe_training_center"
                                             class="form-select" required>
                                             <option value="" disabled>Selecione</option>
-                                            <option value="1002" selected>Participação Online</option>
-                                            <?php if($vagaspresenciaisdisponiveis > 1){ ?>
-                                            <option value="1003">Participação Presencial</option>
-                                            <?php } ?>
+                                            <option value="1010" selected>Participação Online</option>
                                         </select>
                                     </div>
                                 </div>
@@ -117,22 +102,13 @@ include_once "./subscribe.control.php";
                                                 required>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 mb-3">
+                                    <div class="col-12 mb-3">
                                         <div class="form-group">
                                             <label for="subscribe_name">
                                                 * Nome completo:
                                             </label>
                                             <input type="text" class="form-control input" name="subscribe_name"
                                                 id="subscribe_name" required>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <div class="form-group">
-                                            <label for="subscribe_badgename">
-                                                Nome para Crachá (participação presencial):
-                                            </label>
-                                            <input type="text" class="form-control input" name="subscribe_badgename"
-                                                id="subscribe_badgename">
                                         </div>
                                     </div>
                                     <div class="col-md-6 mb-3">

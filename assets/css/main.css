@@ -135,3 +135,48 @@ figure {
 div.iti {
     width: 100% !important;
 }
+
+
+.relative-element {
+    position: relative !important;
+}
+
+.nav .nav-item button.active {
+    background-color: transparent;
+    color: var(--bs-danger) !important;
+}
+
+.nav .nav-item button.active::after {
+    content: "";
+    border-right: 4px solid var(--bs-danger);
+    height: 100%;
+    position: absolute;
+    right: -1px;
+    top: 0;
+    border-radius: 5px 0 0 5px;
+}
+
+#floating-btn{
+    position: fixed;
+    right: 1rem;
+    bottom: 3rem;
+    display: none;
+}
+
+.pulsing {
+    border-radius: 15px;
+    animation: 1.8s pulse infinite ease-in-out;
+}
+
+@keyframes pulse 
+{
+    0% 
+    {
+      box-shadow: 0 0 0 0 var(--color-principal);
+    }
+  
+    100% 
+    {
+        box-shadow: 0 0 0 10px #ffffff00;
+    }
+}

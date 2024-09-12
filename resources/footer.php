@@ -8,7 +8,7 @@
         <div class="row">
             <div class="col-12">
                 <h6 class="text-center text-light text-uppercase">
-                    SOBED-SP & VOCÊ
+                    
                 </h6>
             </div>
         </div>
