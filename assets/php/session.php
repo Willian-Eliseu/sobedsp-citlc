@@ -2,18 +2,18 @@
 
 ini_set('session.gc_maxlifetime', 5400);
 session_set_cookie_params(5400);
-define("NOME_SESSAO", "session356");
+define("NOME_SESSAO", "session359");
 session_start();
 
-$_SESSION[NOME_SESSAO]['id'] = 356;
-$_SESSION[NOME_SESSAO]['tbread'] = 988;
+$_SESSION[NOME_SESSAO]['id'] = 359;
+$_SESSION[NOME_SESSAO]['tbread'] = 991;
 $_SESSION[NOME_SESSAO]['dataevento'] = "2024-09-28";
-$_SESSION[NOME_SESSAO]['pagina'] = 'sobedspvc-smcc';
+$_SESSION[NOME_SESSAO]['pagina'] = 'sobedsp-citlc';
 $_SESSION[NOME_SESSAO]['siteoficial'] = '//sobedsp.org.br';
-$_SESSION[NOME_SESSAO]['css'] = "eventos.tbr.com.br/sobedspvc-smcc/assets/css/chat.css";
+$_SESSION[NOME_SESSAO]['css'] = "eventos.tbr.com.br/sobedsp-citlc/assets/css/chat.css";
 
 //HEADER
-$_SESSION[NOME_SESSAO]['description'] = 'SOBED-SP & VOCÊ';
+$_SESSION[NOME_SESSAO]['description'] = 'SOBED-SP: Caracterização e Indicação Terapêutica de Lesões Colorretais';
 $_SESSION[NOME_SESSAO]['keywords'] = 'TBR, PRODUTORA, PRODUÇÃO, VÍDEOS SOB DEMANDA, TRANSMISSÕES';
 
 //CSS
