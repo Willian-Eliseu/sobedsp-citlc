@@ -141,7 +141,7 @@ include_once "../assets/php/session.php";
                                     </figure>
                                 </div>
                                 <p class="text-principal mb-0 pb-3 fs-5 fw-bold text-center">
-                                    Francisco Sussumu
+                                    Francisco Susumu
                                 </p>
                             </div>
                             <div class="col-md-6 col-lg-4 col-xl-3">
@@ -375,7 +375,7 @@ include_once "../assets/php/session.php";
                                         
                                     </p>
                                     <p class="fs-5">
-                                        <b>Moderador: </b> Francisco Sussumu
+                                        <b>Moderador: </b> Francisco Susumu
                                     </p>
                                 </div>
                             </div>
