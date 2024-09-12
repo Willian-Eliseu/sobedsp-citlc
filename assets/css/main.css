@@ -1,0 +1,137 @@
+:root{
+    --color-principal: #fd7e14;
+    --color-principal-hover: #e0630f;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer{
+    margin-top: auto;
+}
+
+.bg-principal{
+    background-color: var(--color-principal);
+}
+
+.btn-principal{
+    background-color: var(--color-principal);
+    color: white;
+}
+
+.btn-principal:hover{
+    background-color: var(--color-principal-hover);
+    color: white;
+}
+
+.bg-image{
+    background-image: url(../img/background.png);
+    background-position: center;
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+}
+
+.text-principal{
+    color: var(--color-principal);
+}
+
+.pulsing {
+    border-radius: 15px;
+    animation: 1.8s pulse infinite ease-in-out;
+}
+
+@keyframes pulse 
+{
+    0% 
+    {
+      box-shadow: 0 0 0 0 var(--color-principal);
+    }
+  
+    100% 
+    {
+        box-shadow: 0 0 0 10px #ffffff00;
+    }
+}
+
+/* caixa overlay */
+.hover-effect{
+    position: relative;
+}
+
+.hover-effect img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.hover-effect:hover img {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+figure {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    overflow: hidden;
+}
+
+.floating-name{
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    background-color: #366985d5;
+    overflow: hidden;
+    width: calc(100% - 2rem);
+    height: calc(100% - 2rem);
+    transition: .5s ease;
+    opacity: 0;
+    padding: 1rem;
+    color: white;
+}
+
+.hover-effect:hover .overlay {
+    opacity: 1;
+}
+
+.hover-effect:hover .floating-name{
+    opacity: 0;
+}
+
+.golden{
+    color: #efa506;
+}
+
+.bg-box{
+    background-color: #edd9c8;
+}
+
+.tamanho
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 140px !important;
+}
+
+div.iti {
+    width: 100% !important;
+}
