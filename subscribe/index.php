@@ -52,8 +52,8 @@ include_once "../assets/php/session.php";
                                         <label for="subscribe_training_center">* Formato da Inscrição:</label>
                                         <select name="subscribe_training_center" id="subscribe_training_center"
                                             class="form-select" required>
-                                            <option value="" disabled>Selecione</option>
-                                            <option value="1010" selected>Participação Online</option>
+                                            <option value="" disabled selected>Selecione</option>
+                                            <option value="1010">Participação Online</option>
                                         </select>
                                     </div>
                                 </div>
