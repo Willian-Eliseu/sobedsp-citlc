@@ -49,12 +49,12 @@ include_once "../assets/php/session.php";
                                             <input type="email" name="email" id="email" readonly="readonly" onfocus="this.removeAttribute('readonly')" class="form-control" required>
                                         </div>
                                     </div>
-                                    <!-- <div class="col-12">
+                                    <div class="col-12">
                                         <div class="form-group">
                                             <label for="senha">Senha:</label>
                                             <input type="password" name="senha" id="senha" readonly="readonly" onfocus="this.removeAttribute('readonly')" class="form-control" required>
                                         </div>
-                                    </div> -->
+                                    </div>
                                     <div class="col-12">
                                         <!-- control fields -->
                                         <input type="hidden" name="evento" id="evento" value="<?= $_SESSION[NOME_SESSAO]['id'] ?>">

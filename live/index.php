@@ -28,7 +28,7 @@ include_once "../assets/php/session.php";
         <section>
             <div class="container my-5">
                 <h2 class="fst-italic">
-                    SOBED-SP & VOCÊ: Desafios da gestão da carreira em Endoscopia
+                    Curso Interativo: Caracterização e Indicação Terapêutica de Lesões Colorretais
                 </h2>
                 <div class="row mb-3">
                     <div class="col-xl-9">
