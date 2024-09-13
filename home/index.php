@@ -362,7 +362,7 @@ include_once "../assets/php/session.php";
                                         10:00 - PAINEL DE DISCUSSÃO (Perguntas e respostas)
                                     </p>
                                     <p class="fs-5">
-                                        <b>Moderadora: </b> Cláudio Hashimoto
+                                        <b>Moderadora: </b> Elisa Ryoka Baba
                                     </p>
                                 </div>
                             </div>
