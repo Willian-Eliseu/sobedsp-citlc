@@ -26,10 +26,11 @@ include_once "../assets/php/session.php";
         <!-- control fields -->
 
         <section>
+            <?php if(date('Y-m-d') == "2024-09-21"){ ?>
             <div class="container my-5">
-                <h3 class="text-principal mb-3">
+                <h4 class="text-principal mb-3">
                     Curso Interativo: Caracterização e Indicação Terapêutica de Lesões Colorretais
-                </h3>
+                </h4>
                 <div class="row mb-3">
                     <div class="col-xl-9">
                         <div class="row">
@@ -46,10 +47,22 @@ include_once "../assets/php/session.php";
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-center">
-                    <!-- espaço para patrocínio -->
+                <div class="row pt-3">
+                    <p class="fs-5">
+                        Para votar, utilize o sistema abaixo:
+                    </p>
+                    <div class="col-12 px-0">
+                        <iframe width="100%" height="600px" src="https://votoremoto.com.br/app/SOBED24/login?url=" frameborder="0" class="rounded-3 border border-dark shadow"></iframe>
+                    </div>
                 </div>
             </div>
+            <?php }else{ ?>
+            <div class="container my-5">
+                <h4 class="fw-bold text-center py-5">
+                    O curso será transmitido ao vivo no dia 21/09/2024.<br> A partir das 08h00 (Horário de Brasília).
+                </h4>
+            </div>
+            <?php } ?>
         </section>
     </main>
 
