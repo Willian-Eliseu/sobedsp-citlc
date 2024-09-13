@@ -146,6 +146,12 @@ div.iti {
     position: relative !important;
 }
 
+.relative-element > img{
+    display: block;
+    margin: 0 auto;
+    width: 80% !important;
+}
+
 .nav .nav-item button.active {
     background-color: transparent;
     color: var(--color-principal) !important;

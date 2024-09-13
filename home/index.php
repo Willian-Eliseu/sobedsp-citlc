@@ -382,6 +382,16 @@ include_once "../assets/php/session.php";
                         </div>
                     </div>
                     <div class="tab-pane fade" id="pills-pgm3" role="tabpanel" aria-labelledby="pills-pgm3-tab">
+                        <div class="row p-3">
+                                <div class="col-9 mx-auto col-md-2 align-self-center relative-element">
+                                    
+                                </div>
+                                <div class="col-md-10 align-self-center">
+                                    <p class="fs-4 fw-bold fst-italic">
+                                        TRATAMENTO ENDOSCÓPICO
+                                    </p>
+                                </div>
+                            </div>
                         <div class="row">
                             <div class="row p-3">
                                 <div class="col-9 mx-auto col-md-2 align-self-center relative-element">
