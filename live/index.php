@@ -52,7 +52,7 @@ include_once "../assets/php/session.php";
                         Para votar, utilize o sistema abaixo:
                     </p>
                     <div class="col-12 px-0">
-                        <iframe width="100%" height="600px" src="https://votoremoto.com.br/app/SOBED24/login?url=" frameborder="0" class="rounded-3 border border-dark shadow"></iframe>
+                        <iframe width="100%" height="600px" src="https://votoremoto.com.br/app/sobed" frameborder="0" class="rounded-3 border border-dark shadow"></iframe>
                     </div>
                 </div>
             </div>
