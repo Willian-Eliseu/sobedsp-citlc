@@ -26,7 +26,7 @@ include_once "../assets/php/session.php";
         <!-- control fields -->
 
         <section>
-            <?php if(date('Y-m-d') == "2024-09-21"){ ?>
+            <?php if(date('Y-m-d') != "2024-09-21"){ ?>
             <div class="container my-5">
                 <h4 class="text-principal mb-3">
                     Curso Interativo: Caracterização e Indicação Terapêutica de Lesões Colorretais
