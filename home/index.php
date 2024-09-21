@@ -27,7 +27,7 @@ include_once "../assets/php/session.php";
             <img src="../assets/img/banner.png" alt="" class="w-100" onclick="window.location.href='../subscribe'">
         </section>
         <!-- o evento -->
-        <section class="bg-light py-5">
+        <section class="bg-light py-lg-5">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 mb-3">
