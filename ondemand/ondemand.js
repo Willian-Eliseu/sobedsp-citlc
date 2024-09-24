@@ -1,3 +1,5 @@
+$('#nav-logout').removeClass('d-none');
+
 var defineConfig = (x) => {
     const cardElements = document.getElementsByClassName('card_element');
     const cardImage = document.getElementsByClassName('card_image');
@@ -78,7 +80,7 @@ if (sessionStorage.getItem('enable') == 1) {
 }
 
 function fechaAcesso(){
-    $.post('./assets/php/ondemand.php', {
+    $.post('../assets/php/ondemand.php', {
         controle: "fechaacesso",
         evento: $('#eventId').val(),
         usuario: sessionStorage.getItem('id')
@@ -98,7 +100,7 @@ const btnLogout = `
     </li>
 `;
 document.querySelector('#navBarHeaderColapse>ul').innerHTML += btnLogout;
-*/
+
 document.getElementById('navLogout').parentElement.classList.remove('d-none');
 
 navBr.onclick = ()=>{ 
@@ -112,3 +114,5 @@ navEn.onclick = ()=>{
     document.getElementById('language').value = "en";
     translateTo("en");
 };
+
+*/

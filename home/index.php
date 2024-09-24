@@ -29,9 +29,9 @@ include_once "../assets/php/session.php";
         <!-- o evento -->
         <section class="bg-light py-lg-5">
             <div class="container">
-                <p class="text-center mb-0">
+                <!-- <p class="text-center mb-0">
                     <a href="../login" class="btn btn-principal mt-3 pulsing px-5 rounded-pill fs-4">Assista Ao Vivo</a>
-                </p>
+                </p> -->
                 <div class="row justify-content-center">
                     <div class="col-12 mb-3">
                         <h2 class="text-principal text-center fw-bold pt-5">Curso Interativo: Caracterização e Indicação Terapêutica de Lesões Colorretais</h2>
