@@ -47,7 +47,7 @@ include_once "../assets/php/session.php";
                             <br>
                             O curso foi realizado em modo interativo, contando com a participação dos inscritos.
                             <br>
-                            <b>INSCREVA-SE PARA ASSISTIR O MATERIAL GRAVADO.</b>
+                            <b>INSCREVA-SE PARA ASSISTIR AS AULAS GRAVADAS.</b>
                         </p>
                     </div>
                 </div>
