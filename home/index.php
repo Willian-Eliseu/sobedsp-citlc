@@ -45,9 +45,9 @@ include_once "../assets/php/session.php";
                             <b>Tipo:</b> Curso Online;
                             <!-- O curso será realizado no dia <b>21 de setembro</b> de 2024 de forma online, a partir das <b>08h00</b> (horário de Brasília). -->
                             <br>
-                            O curso será realizado de modo interativo, contando com a participação dos inscritos.
+                            O curso foi realizado em modo interativo, contando com a participação dos inscritos.
                             <br>
-                            <b>AS INSCRIÇÕES ESTÃO ABERTAS.</b>
+                            <b>INSCREVA-SE PARA ASSISTIR O MATERIAL GRAVADO.</b>
                         </p>
                     </div>
                 </div>
