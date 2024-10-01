@@ -1,3 +1,5 @@
+$('#nav-logout').removeClass('d-none');
+
 window.addEventListener('load', function() {
     $.post('./assets/php/video.php', {
         id: $('#id').val(),
